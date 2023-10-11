@@ -7,11 +7,15 @@ def rpt(sum):
 rpt(suma(4,3))
 #======================================
 #2. la funcion debera retornar 'es menor' o 'es mayor' segun la edad que pase por parametro
-def EDADES(edad):
- return f'eres mayor de edad  ☺ {edad}'
-edad1=int(input('Ingresa la edad: '))
-if edad1 >= 18:
-  
+def determinar_edad(edad):
+    respuesta = ''
+  #reemplazar pass por la sintaxis correcta
+    
+    if edad < 18:
+        return('es menor')
+    else:
+        return('es mayor') 
+print(determinar_edad(11))
 #3. la funcion recibe como parametros dos datos el primero arr recibe una array(lista) el segundo num un numero entero positivo, la funcion debera retornar un nuevo array con el num insertado en la tercera posicion del array
 def new_array(arr,num):
   #reemplazar pass por la sintaxis correcta
